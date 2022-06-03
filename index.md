@@ -7,10 +7,9 @@ title: about
 
 I'm **Pranjal Gulati**. I am a sophomore at [IIT Roorkee](https://iitr.ac.in), persuing Bachelors in [Electronics and Communication Engineering](https://ece.iitr.ac.in). At IIT Roorkee, I am a senior member of the [Data Science Group](https://dsgiitr.com).
 
-Currently, I work as a Research Intern at Bosch (AIShield) where I am exploring black-box attacks for computer vision models. 
+Currently, I work as a Research Intern at Bosch (AIShield) where I am exploring black-box attacks for computer vision models.
 
 I have recently started to gain interests in documenting what I read, [here](/blog) is an attempt. Check out some of my work [here](/work).
-
 
 #### news
 
@@ -24,6 +23,7 @@ Apr
 
 Mar
 : Our team won gold at Bosch High Prep event at the Inter IIT Tech Meet.
+
 </details>
 
 <details markdown=1>
@@ -39,6 +39,7 @@ Apr
 
 Feb
 : Our team won first place at Endeavour, an annual startup idea pitch challenge by E-Cell IIT Roorkee
+
 </details>
 
 <details markdown=1>
@@ -48,8 +49,8 @@ Nov
 
 Sep
 : Cleared JEE Advanced 2020 with AIR 1233
-</details>
 
+</details>
 
 #### connect
 
@@ -59,5 +60,4 @@ I love connecting with people, with various backgrounds and approaches. **Feel f
 - **github**: [DevPranjal](https://github.com/DevPranjal)
 - **twitter**: [@imPGulati](https://twitter.com/imPGulati)
 
-
-Last updated: {% last_modified_at %}
+Last updated: 3 Jun 2022
