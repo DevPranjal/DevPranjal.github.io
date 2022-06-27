@@ -9,17 +9,14 @@ visible: 1
 - Problems faced at the Inter IIT Tech Meet
     - Mode collapse
     - Poor attack quality
-
 - Exploring Jacobian Based Data Augmentations
     - To improve the quality of attack vectors
     - Augmenting seed data based on Jacobian
-
 - _Dumped in favor of exploring dynamic neural networks_
 
 #### Dynamic Neural Networks
 
 - Can adapt their structures and parameters to different inputs
-
 - Advantages in:
     - Accuracy
     - Computational efficiency
@@ -35,10 +32,8 @@ visible: 1
 #### Dynamic NNs in Model Extraction
 
 - Can adapt to different target / black-box models
-
 - Can give the best clone model:
     - Smaller target gives rise to smaller clone
-
 - Optimally: guess the target model architecture from the dynamic connections that arise
 
 #### Background and Survey
@@ -46,7 +41,6 @@ visible: 1
 - Data-Free Model Extraction (https://arxiv.org/pdf/2011.14779.pdf)
     - GANs for synthetic data
     - Gradient estimation for teacher backprop
-
 - Dynamic Substitute Training for Data-Free Black Box Attacks (https://arxiv.org/pdf/2204.00972.pdf)
     - Dynamic clone
     - Special loss function
@@ -55,16 +49,13 @@ visible: 1
 
 - Dynamic Substitute Training for Data-Free Black Box Attacks
     - Open-source code was not available
-
 - Implemented the code for the above work
     - Plugged it into DFME codebase
-
 - Organized as:
-
-`/checkpoints` | saved checkpoints
-`/dfme` | dfme code simplified 
-`/models`	| standard architectures and dynamic networks
-`/experiments` | scripts for the experiments conducted
+  `/checkpoints` | saved checkpoints
+  `/dfme` | dfme code simplified 
+  `/models`	| standard architectures and dynamic networks
+  `/experiments` | scripts for the experiments conducted
 
 #### Experiments
 
@@ -74,7 +65,6 @@ visible: 1
         - Skip Nets
     - Cascading Networks and Mixture of Experts
     - Dynamic Convolutions
-
 - Inferring target model architecture from dynamic gates of an extracted gated ResNet
     - FAILED
     - But still optimistic
@@ -118,10 +108,8 @@ Dataset | CIFAR10
 - Explore and quantify relations between dynamism and the teacher / target
     - First step: exploring gates
     - Next: attention weights in the dynamic conv
-
 - Skip Net analysis:
     - Paper gives analysis for tough vs easy inputs
     - We can step further with a goal for tough vs easy models
-
 - Use cases in edge devices
 
