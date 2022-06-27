@@ -24,7 +24,7 @@ visible: 1
 
 <center>
 <figure>
-  <img src="../../assets/dynamic-moe.png" alt="Dynamic Mixture of Experts" style="width:80%">
+  <img src="../../assets/dynamic-moe.png" alt="Dynamic Mixture of Experts" style="width:110%">
   <!-- <figcaption>The DFME framework</figcaption> -->
 </figure>
 </center>
