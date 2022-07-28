@@ -44,19 +44,23 @@ def loss(weights, data, target):
 
 # weight initialization
 pred_weights = np.random.normal(size=(3,))
-print(f"Loss before optimization: {loss(pred_weights, sample_data, sample_targets)}")
+print(f"Loss before optimization: \
+        {loss(pred_weights, sample_data, sample_targets)}")
 
 
-######################### Autograd is used here #########################
+################## Autograd is used here ##################
 gradient_fn = grad(loss)
 
 # gradient descent
 for i in range(50):
-    pred_weights -= 0.001 * gradient_fn(pred_weights, sample_data, sample_targets)
-    # gradient will be taken with respect to the first parameter, i.e. pred_weights
+    pred_weights -= 0.001 * gradient_fn(pred_weights,
+                            sample_data, sample_targets)
+    # gradient will be taken with respect to the 
+    # first parameter -> pred_weights
 
 
-print(f"Loss after optimization: {loss(pred_weights, sample_data, sample_targets)}")
+print(f"Loss after optimization: \
+        {loss(pred_weights, sample_data, sample_targets)}")
 ```
 
 #### How it works?
@@ -73,14 +77,18 @@ import autograd.numpy as np
 from autograd.tracer import trace, Node
 
 class PrintNode(Node):
-    def __init__(self, value, fun, args, kwargs, parent_argnums, parents):
+    def __init__(self, value, fun, args, kwargs,
+                    parent_argnums, parents):
         self.varname_generator = parents[0].varname_generator
         self.varname = next(self.varname_generator)
         args_or_vars = list(args)
         for argnum, parent in zip(parent_argnums, parents):
             args_or_vars[argnum] = parent.varname
         print('{} = {}({}) = {}'.format(
-            self.varname, fun.__name__, ','.join(map(str, args_or_vars)), value))
+            self.varname, fun.__name__, ','.join(
+                map(str,args_or_vars)), value
+            )
+        )
 
     # defined in autograd.tracer.Node, added here for reference
     # @classmethod
@@ -129,7 +137,8 @@ print_trace(grad(fun), 1.0)
 # E = true_divide(D, 2) = 0.9092974268256817
 # F = cos(B) = -0.4161468365471424
 # G = multiply(1.0, F) = -0.4161468365471424
-# H = add(ArrayVSpace_{'shape': (), 'dtype': dtype('float64')}, G, G) = -0.8322936730942848
+# H = add(ArrayVSpace_{'shape': (), 'dtype': dtype('float64')},
+      G, G) = -0.8322936730942848
 ```
 
 Read more [here](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md)
