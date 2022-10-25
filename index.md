@@ -7,9 +7,11 @@ title: about
 
 I'm **Pranjal Gulati**. I am a sophomore at [IIT Roorkee](https://iitr.ac.in), persuing Bachelors in [Electronics and Communication Engineering](https://ece.iitr.ac.in). At IIT Roorkee, I am a senior member of the [Data Science Group](https://dsgiitr.com).
 
-Currently, I work as a Research Intern at Bosch (AIShield) where I am exploring black-box attacks for computer vision models.
+Most recently, I worked as a Research Intern at Bosch (AIShield). I explored strategies for improving extraction attacks on computer vision models, by implementing dynamic neural networks as a clone/substitute model for extracting a black box target model.
 
-I have recently started to gain interests in documenting what I read, [here](/blog) is an attempt. Check out some of my work [here](/work).
+#### links
+
+[blog](/blog) &nbsp; ; &nbsp; [work](/work) &nbsp; ; &nbsp; [github](https://github.com/DevPranjal)
 
 #### news
 
