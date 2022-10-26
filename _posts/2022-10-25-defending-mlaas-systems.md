@@ -3,7 +3,7 @@ title: Defending MLaaS Systems
 updated: 2022-10-25
 ---
 
-> Submitted at the Qualification Round of the Embedded Security Challenge at CSAW 2022. This report helped us secure a spot in the finals, being one of the 12 finalists from all the regions worldwide. The report can be viewed in its original format [here](  )
+> Submitted at the Qualification Round of the Embedded Security Challenge at CSAW 2022. This report helped us secure a spot in the finals, being one of the 12 finalists from all the regions worldwide. The report can be viewed in its original format [here](https://drive.google.com/file/d/1yiaMBdHhg7dDm02OSNT3Ho-fat3IvVE8/view?usp=sharing)
 
 #### Introduction
 
