@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 .sass-cache/
 .vscode/
+/resume/
 
 # As this is a ruby-gem project, we exclude the lock file; explained here:
 # https://stackoverflow.com/questions/4151495/should-gemfile-lock-be-included-in-gitignore

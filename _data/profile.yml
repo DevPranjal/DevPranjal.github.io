@@ -1,0 +1,10 @@
+links:
+  - label: Email
+    url: mailto:pranjal.carmel@gmail.com
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/pranjal-gulati/
+  - label: GitHub
+    url: https://github.com/DevPranjal
+  - label: Writing
+    url: /writing/
+    internal: true

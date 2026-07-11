@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<div class="home-shell">
+  <section class="profile" aria-labelledby="profile-title">
+    <div class="profile-copy">
+      <h1 id="profile-title">Pranjal Gulati</h1>
+      <p>
+        I'm a Data Scientist at <a href="https://www.microsoft.com/">Microsoft</a>,
+        working at the intersection of applied AI, machine learning, and large-scale data systems.
+      </p>
+      <p>
+        I'm interested in personalization, forecasting, trustworthy machine learning,
+        and building systems that turn models into useful products.
+      </p>
+      <nav class="profile-links" aria-label="Profile links">
+        {% for link in site.data.profile.links %}
+          <a href="{% if link.internal %}{{ link.url | relative_url }}{% else %}{{ link.url }}{% endif %}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true">/</span>{% endunless %}
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="profile-photo-wrap">
+      <img class="profile-photo" src="{{ '/assets/profile.jpeg' | relative_url }}" alt="Portrait of Pranjal Gulati" width="320" height="320">
+    </div>
+  </section>
+
+  <section class="content-section" id="experience" aria-labelledby="experience-title">
+    <header class="section-heading">
+      <h2 id="experience-title">Experience</h2>
+    </header>
+    <div class="entry-list">
+      {% for item in site.data.experience %}
+        <article class="entry entry-compact">
+          <div>
+            <h3>{{ item.role }}</h3>
+            <p class="entry-organization">{{ item.organization }}</p>
+          </div>
+          <p class="entry-date">{{ item.period }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="content-section" id="research" aria-labelledby="research-title">
+    <header class="section-heading">
+      <h2 id="research-title">Research</h2>
+      <p>My research spans federated learning, knowledge distillation, and trustworthy machine learning.</p>
+    </header>
+    <div class="entry-list">
+      {% for item in site.data.research %}
+        <article class="entry research-entry">
+          <h3><a href="{{ item.links.first.url }}">{{ item.title }}</a></h3>
+          <p class="entry-authors">
+            {% for author in item.authors %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+          </p>
+          <p class="entry-venue">{{ item.venue }}</p>
+          <p>{{ item.description }}</p>
+          <p class="entry-links">
+            {% for link in item.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true">/</span>{% endunless %}{% endfor %}
+          </p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="content-section compact-section" id="open-source" aria-labelledby="open-source-title">
+    <header class="section-heading">
+      <h2 id="open-source-title">Open Source</h2>
+    </header>
+    <p>
+      I build and contribute to machine learning tools, experiments, and implementations.
+      The current collection lives on <a href="https://github.com/DevPranjal">GitHub</a>.
+    </p>
+  </section>
+
+  <section class="content-section" id="awards" aria-labelledby="awards-title">
+    <header class="section-heading">
+      <h2 id="awards-title">Awards</h2>
+    </header>
+    <div class="entry-list">
+      {% for item in site.data.awards %}
+        <article class="entry award-entry">
+          <div class="award-heading">
+            <h3>{{ item.placement }} · {{ item.title }}</h3>
+            <p class="entry-date">{{ item.date }}</p>
+          </div>
+          <p>{{ item.description }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="content-section compact-section" id="education" aria-labelledby="education-title">
+    <header class="section-heading">
+      <h2 id="education-title">Education</h2>
+    </header>
+    <article class="entry entry-compact">
+      <div>
+        <h3>Indian Institute of Technology Roorkee</h3>
+        <p>Bachelor of Technology in Electronics and Communication Engineering</p>
+      </div>
+      <p class="entry-date">2020 - 2024</p>
+    </article>
+  </section>
+
+  <section class="content-section compact-section" id="service" aria-labelledby="service-title">
+    <header class="section-heading">
+      <h2 id="service-title">Professional Service</h2>
+    </header>
+    <article class="entry entry-compact">
+      <div>
+        <h3>Reviewer, IJCNN 2027</h3>
+        <p>Main Track · upcoming</p>
+      </div>
+    </article>
+  </section>
+</div>

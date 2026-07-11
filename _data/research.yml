@@ -1,0 +1,25 @@
+- title: Clustered Federated Learning Framework for Non-IID Ambient Noise Mapping for Urban Sensing
+  authors:
+    - name: Ayshika Kapoor
+    - name: Pranjal Gulati
+      self: true
+    - name: Dheeraj Kumar
+  venue: International Joint Conference on Neural Networks (IJCNN), 2025
+  description: A clustered federated learning framework for learning urban noise maps from heterogeneous, distributed sensing data.
+  links:
+    - label: paper
+      url: https://doi.org/10.1109/IJCNN64981.2025.11227255
+
+- title: "[Re] Distilling Knowledge via Knowledge Review"
+  authors:
+    - name: Pranjal Gulati
+      self: true
+    - name: Apoorva Verma
+    - name: Sarthak Gupta
+  venue: ML Reproducibility Challenge, 2021; arXiv preprint, 2022
+  description: A reproduction and empirical study of Knowledge Review, including ablations that examine how a student network learns from multiple teacher layers.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2205.11246
+    - label: code
+      url: https://github.com/DevPranjal/reproduction-review-kd

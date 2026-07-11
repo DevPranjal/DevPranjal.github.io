@@ -1,13 +1,12 @@
 # Site Info
 title:              "Pranjal Gulati"
-description:        "Website"
+description:        "Data Scientist at Microsoft working across applied AI, machine learning, and large-scale data systems."
 author_name:        "Pranjal Gulati" # change this to your name
-logo_url:           https://avatars.githubusercontent.com/u/72960463?v=4
 
 # Site Settings
 url:                https://devpranjal.github.io
 baseurl:            
-permalink:          /:title # Post permalink
+permalink:          /writing/:title/ # Post permalink
 timezone:           Asia/Kolkata
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 social_share_previews: true
@@ -22,7 +21,7 @@ sass:
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "resume" ]
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at

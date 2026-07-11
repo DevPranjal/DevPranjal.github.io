@@ -1,0 +1,24 @@
+- placement: Second place
+  title: Adobe Behavior Simulation Challenge
+  date: Dec 2023
+  description: Simulated social-media behavior and content using embedding-based and large language model approaches.
+
+- placement: Second place
+  title: Microsoft Membership Inference Competition at IEEE SaTML 2023
+  date: Feb 2023
+  description: Developed membership inference attacks for image and tabular datasets from first principles.
+
+- placement: Third place
+  title: DevRev Domain-Specific Question Answering Challenge
+  date: Feb 2023
+  description: Built an efficient retrieval and reader pipeline using BM25, SBERT, DeBERTa, domain adaptation, quantization, and distillation.
+
+- placement: First place
+  title: Embedded Security Challenge, CSAW 2022
+  date: Nov 2022
+  description: Solved AI security challenges spanning trojan insertion, watermarking, membership inference, and poisoning.
+
+- placement: First place
+  title: Bosch Model Extraction Challenge for Video-Based Models
+  date: Mar 2022
+  description: Extracted Video Swin Transformer and MoViNet models on video action-recognition tasks.
