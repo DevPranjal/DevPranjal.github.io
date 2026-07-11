@@ -8,11 +8,10 @@ Personal website and Writing archive, built with Jekyll and published at
 - `_data/` contains structured homepage content.
 - `_layouts/` and `_includes/` contain the shared Jekyll presentation.
 - `_posts/` contains Writing articles; `legacy/` preserves their previous URLs.
+- `pages/` contains secondary pages, feeds, and compatibility redirects.
 - `assets/` contains site media.
 - `resume/` is ignored local source material and must not be published.
 - `sysdesign/` and `upsc/` are standalone applications with stable public URLs.
-- `robust-vits-recipe.html` and `summer-intern.html` are standalone legacy pages
-	kept at the repository root to preserve their existing URLs.
 
 ## Local development
 
