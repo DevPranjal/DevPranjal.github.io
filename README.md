@@ -11,7 +11,7 @@ Personal website and Writing archive, built with Jekyll and published at
 - `pages/` contains secondary pages, feeds, and compatibility redirects.
 - `assets/` contains site media.
 - `resume/` is ignored local source material and must not be published.
-- `sysdesign/` and `upsc/` are standalone applications with stable public URLs.
+- `sysdesign/`, `upsc/`, and `dsa/` are standalone applications with stable public URLs.
 
 ## Local development
 
