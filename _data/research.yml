@@ -8,7 +8,7 @@
   description: A clustered federated learning framework for learning urban noise maps from heterogeneous, distributed sensing data.
   links:
     - label: paper
-      url: https://doi.org/10.1109/IJCNN64981.2025.11227255
+      url: https://www.researchgate.net/publication/397634253_Clustered_Federated_Learning_Framework_for_Non-IID_Ambient_Noise_Mapping_for_Urban_Sensing
 
 - title: "[Re] Distilling Knowledge via Knowledge Review"
   authors:
