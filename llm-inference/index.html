@@ -12,8 +12,7 @@
       } catch (e) { stored = null; }
       if (stored !== "dark" && stored !== "light") stored = null;
       const param = new URLSearchParams(window.location.search).get("scoutTheme");
-      const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-      const theme = param || stored || (prefersDark ? "dark" : "light");
+      const theme = param || stored || "light";
       document.documentElement.setAttribute("data-theme", theme);
     })();
   </script>
