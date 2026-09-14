@@ -10,6 +10,7 @@ permalink:          /writing/:title/ # Post permalink
 timezone:           Asia/Kolkata
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 social_share_previews: true
+google_analytics:   G-6K7BH5FMYB  # GA4 measurement id - only loads on production builds
 
 # Site Build
 highlighter:        rouge
