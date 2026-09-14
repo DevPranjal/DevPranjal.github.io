@@ -4,7 +4,8 @@ updated: 2026-09-13
 ---
 
 > Written for the AI Incident Response Sprint (Apart Research and CeSIA, September
-2026), Track 1: Containment. The code and the technical report live separately.
+2026), Track 1: Containment. The full technical report, with the methods and all
+the numbers, can be read [here](/assets/falsifying-isolation-claims.pdf).
 
 #### Four labs, six weeks, the same mistake
 
